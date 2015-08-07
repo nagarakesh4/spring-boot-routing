@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
-public class Example {
+public class TestSpringBoot {
 
     String baseText = "This project showcases how easily to get started with Spring-Boot project and using its powerful features for developing any spring application.";
     
@@ -22,7 +22,7 @@ public class Example {
     }
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Example.class, args);
+        SpringApplication.run(TestSpringBoot.class, args);
     }
 
 }
