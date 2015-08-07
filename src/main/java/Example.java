@@ -7,14 +7,18 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 public class Example {
 
+    String baseText = "This project showcases how easily to get started with Spring-Boot project and using its powerful features for developing any spring application.";
+    
+    
     @RequestMapping("/")
     String greet() {
-        return "Hello World!";
+        return baseText+"Hello World! - This is the base URL";
     }
 
-	@RequestMapping("/venkata")
-    String venkata() {
-        return "Hello World - Venkata from spring boot!";
+	@RequestMapping("/query/{id}")
+    String venkata(@PathVariable("id") final String id) {
+        
+        return baseText+"\nThis output uses PathVariable in Spring to showcase how to show the input parameter given by the user. You have entered "+id;
     }
 
     public static void main(String[] args) throws Exception {
