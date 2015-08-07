@@ -11,4 +11,4 @@ Using spring-boot we can create stand alone Spring applications and helps in emb
 1. Clone this repo
 2. cd into the cloned dir, Open terminal and run "mvn spring-boot:run", the app is now deployed on your local!
 
-Note: By default spring-boot-starter-web looks for deploying app on localhost at port 8080, make sure other servers which are running at this port are completely stopped before deploying the project.
+Note: By default spring-boot-starter-web looks for deploying app on localhost at port 8080, make sure other servers which are running at this port are completely stopped before deploying the application.
