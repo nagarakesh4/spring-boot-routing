@@ -27,7 +27,7 @@ The RestController in Spring Boot helps to render the result string directly to 
 ###EnableAutoConfiguration
 This annotation will help Spring Boot to understand the needs of the project. This helps in setting up the configuration  automatically specified for this project. For example "spring-boot-starter-web" is interpreted as the project is a web application and thus auto configures the tomcat server and deploys the application.
 
-####Note: If we don't specify the annotation EnableAutoConfiguration, while trying to run the app at 'mvn spring-boot:run' it throws up WebAppContextError meaning that it is unable to understand the projects configuration.
+####Note: If we don't specify the annotation EnableAutoConfiguration, while trying to run the app at 'mvn spring-boot:run' it throws up WebAppContextError (= cannot retrieve any project config)
 
 #Other Descriptions
 ###SpringApplication.run(Classname.class, args)
