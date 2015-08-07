@@ -10,5 +10,7 @@ Using spring-boot we can create stand alone Spring applications and helps in emb
 #Running this sample application
 1. Clone this repo
 2. cd into the cloned dir, Open terminal and run "mvn spring-boot:run", the app is now deployed on your local!
+3. Open browser, go to http://localhost:8080/ for the first method to execute in the TestSpringBoot.java
+4. go to http://localhost:8080/query/helloWorld, to see the Spring's PathVariable coming into play.
 
 Note: By default spring-boot-starter-web looks for deploying app on localhost at port 8080, make sure other servers which are running at this port are completely stopped before deploying the application.
