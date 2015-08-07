@@ -5,7 +5,7 @@ This is a simple spring-boot project which helps you in getting started with the
 
 The pom.xml has spring-boot-starter-web dependency listed, it helps in providing useful maven defaults such as deploying the app on tomcat server automatically withoug having to install it on your local machine. The app will be hosted on your localmachine at port 8080
 
-Using spring-boot we can create stand alone projects which can run by spring command. Fine more at http://projects.spring.io/spring-boot/
+Using spring-boot we can create stand alone projects which can run by spring command. Find more at http://projects.spring.io/spring-boot/
 
 #Running this sample application
 1. Clone this repo
