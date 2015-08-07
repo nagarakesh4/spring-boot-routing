@@ -11,12 +11,12 @@ public class TestSpringBoot {
     
     
     @RequestMapping("/")
-    String greet() {
+    String helloWorld() {
         return baseText+"Hello World! - This is the base URL";
     }
 
-	@RequestMapping("/query/{id}")
-    String venkata(@PathVariable("id") final String id) {
+    @RequestMapping("/query/{id}")
+    String userText(@PathVariable("id") final String id) {
         
         return baseText+"\nThis output uses PathVariable in Spring to showcase how to show the input parameter given by the user. You have entered "+id;
     }
