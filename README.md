@@ -1,7 +1,7 @@
 # spring-boot-routing
 
 
-This is a simple Spring Boot project which helps you in getting started with the Spring Boot and lets you understand on how to use Spring Boot for any of your Spring application. 
+This project which helps you in getting started with the Spring Boot and lets you understand on how to develop a spring boot based web app. 
 
 The pom.xml has spring-boot-starter-web dependency listed, it helps in providing useful maven defaults such as deploying the app on tomcat server automatically withoug having to install it on your local machine. The app will be hosted on your localmachine at port 8080
 
