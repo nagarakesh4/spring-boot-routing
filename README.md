@@ -3,7 +3,7 @@
 
 This project which helps you in getting started with the Spring Boot and lets you understand on how to develop a spring boot based web app. 
 
-The pom.xml has spring-boot-starter-web dependency listed, it helps in providing useful maven defaults such as deploying the app on tomcat server automatically withoug having to install it on your local machine. The app will be hosted on your localmachine at port 8080
+The pom.xml has spring-boot-starter-web dependency listed, it helps in providing useful maven defaults such as deploying the app on tomcat server automatically withoug having to install it on your local machine. The app once deployed will be hosted on your localmachine at port 8080
 
 Spring Boot is the next-gen process that helps in setting up spring with ease. Using Spring Boot we can create stand alone Spring applications and helps in embedding tomcat and other useful defaults. Find more at http://projects.spring.io/spring-boot/
 
