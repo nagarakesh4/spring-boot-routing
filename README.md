@@ -37,4 +37,4 @@ this command helps in running the app (deploy)
 
 ####Executable jar/ war file -  useful for prod environment
 Executable jar/war files contain compiled classes and all dependecies required for the application. Creating an executable jar/ war file will be useful when trying to deploy to any cloud platform.
-For the application that we have just created, add ####spring-boot-maven-plugin dependecy to pom thereby making the app to be distributed across any environment.
+For the application that we have just created, add spring-boot-maven-plugin dependecy to pom thereby making the app to be distributed across any environment.
