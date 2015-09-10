@@ -18,6 +18,9 @@ Note: By default spring-boot-starter-web looks for deploying app on localhost at
 #Description of Annotations used for Spring Boot applications
 Following Spring Annotations are used in Spring Boot projects
 
+####@Controller vs @RestController
+The controller in spring boot is RestController. Previously we used to use @Controller which implies to expose http end points and we had to anotate every single method with @ResponseBody = serialize the response that this method returns but with  @RestController it means it does something that is very specific and we can also now avoid writing @ResponseBody for every method.
+
 ### RequestMapping
 This helps in providing routing information. For example in TestSpringBoot.java the "/" route will redirect to show the functionality of 'helloWorld()' and similarly the route "/query/{anyvalue}" will redirect to show the functionality of 'userText()'.
 
